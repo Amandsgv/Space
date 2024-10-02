@@ -1,0 +1,174 @@
+:root{
+    --Cor-da-fonte: #ffffff;
+    --Tamanho-da-fonte-titulo: 50px;
+    --Tamanho-da-fonte-texto: 20px;
+    --Peso-da-fonte:500;
+    --botao-verde: #00ff04;
+    --botao-cinza-efeito:#868484;
+    --cor-de-fundo:#393939;
+    
+}
+
+body{
+    background-image: url(Fashion.jpg);
+    height: 100vh; /* Define que o fundo cubra a tela inteira */
+    width: 100vw; /* Define que o fundo cubra a largura total da viewport */
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+  
+}
+
+
+
+header{
+    text-align: center;
+    padding: 2%;
+    background-color: black;
+
+}
+
+.Inicio{
+    font-size: var(--Tamanho-da-fonte-titulo);
+    color: var(--Cor-da-fonte);
+    text-decoration: none;
+}
+
+.Inicio:hover{
+    color: var(--botao-cinza-efeito);
+}
+
+.Modelos_da_divisao{
+    text-align: center;
+    color: var(--Cor-da-fonte);
+    font-size: var(--Tamanho-da-fonte-texto);
+    font-weight: var(--Peso-da-fonte);
+}
+
+
+
+.lista{
+    color: var(--Cor-da-fonte);
+}
+
+.Icons{
+    text-align: center;
+    color: var(--Cor-da-fonte);
+    font-size: var(--Tamanho-da-fonte-texto);
+    font-weight: var(--Peso-da-fonte);
+    padding-top: 2%
+}
+
+.Escolher_os_modelos{
+    display: grid;
+    text-align: center;
+
+}
+
+
+.Insta{ 
+    height: 300px; 
+    width: 240px;
+    border: solid#ffffff;
+    border-radius: 8%;
+
+   
+}
+
+.Acesso_Instagran{
+    text-align: center;
+    display: flex;
+    gap: 6%;
+    font-size: var(--Tamanho-da-fonte-texto);
+    justify-content: center;
+
+}
+
+
+.Clique{
+    display: flex;
+    font-size: var(--Tamanho-da-fonte-texto);
+    color: var(--Cor-da-fonte);
+    text-decoration: none;
+   
+    
+}
+
+.Clique:hover{
+    
+    color: var(--botao-verde);
+
+}
+
+.Saiba_mais{
+    text-align: center;
+    margin: 50px;
+    border: 2px solid var(--Cor-da-fonte);
+    padding: 8px;
+    border-radius: 20px;
+    font-size: var(--Tamanho-da-fonte-texto);
+
+}
+.Saiba_muito_mais{
+    text-decoration: none;
+    color: var(--Cor-da-fonte);
+  
+
+}
+.Saiba_mais:hover{
+    background-color: var(--botao-cinza-efeito);
+
+}
+.Saiba_muito_mais:hover {
+    font-size: 35px;
+    color: var(--botao-verde);
+    
+}
+
+
+.Sobre_elas{
+    font-size: var(--Tamanho-da-fonte-texto);
+    color: var(--Cor-da-fonte);
+    text-align: center;
+}
+
+.Home{
+    text-align: center;
+    margin: 50px;
+    border: 2px solid var(--Cor-da-fonte);
+    padding: 8px;
+    border-radius: 20px;
+
+}
+
+.Home__volta{
+    text-decoration: none;
+    font-size: var(--Tamanho-da-fonte-texto);
+    color: var(--Cor-da-fonte);
+}
+
+.Home:hover{
+    background-color: var(--botao-cinza-efeito);
+
+
+}
+
+
+.Home__volta:hover{
+    font-size: 35px;
+    color: var(--botao-verde);
+    
+}
+
+.Rodape{
+    display: flex;
+    color: var(--Cor-da-fonte);
+    padding-top: 1%;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.Rodape-Final{
+    text-align: center;
+    color: var(--Cor-da-fonte);
+}
